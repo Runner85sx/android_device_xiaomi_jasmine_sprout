@@ -22,7 +22,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/xiaomi/jasmine/device.mk)
+$(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit Carbon GSM telephony parts
 $(call inherit-product, vendor/carbon/config/gsm.mk)
@@ -34,7 +34,7 @@ $(call inherit-product, vendor/carbon/config/common.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carbon.maintainer="Rcstar6696"
 
-TARGET_VENDOR_PRODUCT_NAME := jasmine
+TARGET_VENDOR_PRODUCT_NAME := jasmine_sprout
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="jasmine_sprout-user 9 PKQ1.180904.001 V10.0.2.0.PDIMIFJ release-keys"
@@ -45,6 +45,6 @@ BUILD_FINGERPRINT := "xiaomi/jasmine/jasmine_sprout:9/PKQ1.180904.001/V10.0.2.0.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660l
-PRODUCT_NAME := carbon_jasmine
-PRODUCT_DEVICE := jasmine
+PRODUCT_NAME := carbon_jasmine_sprout
+PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := MI A2 (CarbonROM)
